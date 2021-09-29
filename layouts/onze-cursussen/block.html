@@ -1,0 +1,27 @@
+<div class="col-md-3">
+	<div class="card mt-3">
+		{{ if .Params.TopImage }}
+			{{ $path := .Params.TopImage }}
+			{{ $thumb := resources.Get $path  }}
+			<img class="card-img-top" src="{{ $thumb.RelPermalink }}">
+		{{ end }}
+		<div class="card-body">
+            <div class="d-flex">
+                <h5 class="card-title">{{.Params.Title}}</h5>
+                <span class="ms-auto">€{{.Params.Price}},-</span>
+            </div>
+			
+			<p class="card-text">{{.Summary}}</p>
+            <ul>
+                {{range .Params.pos }}
+				<li>{{.}}</li>
+			    {{end}}
+            </ul>
+            <div class="d-flex">
+                <a href="{{ .RelPermalink }}" class="card-link btn btn-link me-auto">Meer info</a>
+                <a href="{{ .RelPermalink }}" class="card-link btn btn-yellow ms-auto">Aanmelden</a>
+            </div>
+			
+		</div>
+	</div>
+</div>

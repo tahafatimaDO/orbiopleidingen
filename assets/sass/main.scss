@@ -1,0 +1,110 @@
+$orange: rgb(255, 136, 0);
+$yellow: #ffc107;
+
+.btn{
+    &-yellow{
+        background-color: $yellow;
+    }
+}
+
+.course{
+    &.side-summary{
+        border: 1px solid slategray;
+        padding: 12px;
+        border-radius: 2px;
+        h3{
+            text-align: center;
+        }
+        .price{
+            font-size: 0.9rem;
+            strong{
+                font-size: 1.3rem;
+                color: $orange;
+            }
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+          }
+          li {
+            padding-left: 1.3em;
+          }
+          li:before {
+            content: "\f00c"; /* FontAwesome Unicode */
+            font-family: FontAwesome;
+            display: inline-block;
+            margin-left: -1.3em; /* same as padding-left set on li */
+            width: 1.3em; /* same as padding-left set on li */
+            color: green;
+          }
+    }
+
+    .apply{
+        background-color: $orange;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.4rem;
+        border-radius: 2.5px;
+        padding: 4px;
+        a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    }
+}
+
+.top-header{
+    .logo{
+        display: inline-block;
+        img{
+            padding: 15px;
+            width: 10rem;
+        }
+    }
+
+    .quick-links{
+        display: inline-block;
+
+        ul{
+            list-style: none;
+            li{
+                display: inline-block;
+            }
+        }
+    }
+
+    .top-contact{
+        text-align: center;
+        display: inline-block;
+        background-color: #ffc107a6;
+        border: 1px solid #ffc107;
+        padding: 8px;
+        h3{
+            font-weight: bold;
+        }
+    }
+}
+
+.course-categories{
+    a{
+        text-decoration: none;
+
+    }
+
+    .course-category{
+        background-color: rgb(224, 224, 224);
+        border: 1px solid slategray;
+        background-position: center center;
+        background-size: cover;
+        h3{
+            margin-top: 9rem;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.39);
+            width: 100%;
+            margin-bottom: 0;
+            color: white;
+        }
+    }
+}

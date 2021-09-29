@@ -1,0 +1,18 @@
+
+
+
+<div class="col-12 col-lg-8 blog-main">
+
+    <article class="blog-post">
+        <header>
+            {{ partial "post-title" . }}
+            {{ partial "post-date" . }}
+            {{ partial "post-tags" . }}
+            {{ partial "post-categories" . }}
+        </header>
+        {{ .Content }}
+    </article>      
+
+</div>
+
+{{ partial "sidebar.html" . }}

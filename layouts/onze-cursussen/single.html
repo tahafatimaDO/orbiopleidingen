@@ -1,0 +1,41 @@
+{{ define "main" }}
+
+
+{{ $built := resources.Get "scripts/course.js" | js.Build "main.js" }}
+<script type="script/javascript" src="{{ $built.RelPermalink }}"></script>
+
+<div class="row">
+    <div class="col-md-8">
+        <header>
+            {{ partial "post-title" . }}
+            <hr>
+        </header>
+        <article class="blog-post">
+            {{ .Content }}
+            {{ partial "translations.html" . }}
+            {{ partial "related" . }}
+        </article>
+    </div>
+    <div class="col-md-4 ">
+        <div class="course side-summary">
+            <h3>{{.Title}}</h3>
+            <p class="price"><strong>€{{.Params.Price}},-</strong> exc. BTW</p>
+            <hr>
+            <ul>
+                <li>Meerdere cursusmomenten per week</li>
+                <li>In 1 dag je VCA</li>
+            </ul>
+            <p>Eerstvolgende cursus: <br><strong>Zaterdag 20 september</strong></p>
+            <div class="apply">
+                <a href="#">Inschrijven</a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div id="root"></div>
+    </div>
+</div>
+
+
+
+{{ end }}
