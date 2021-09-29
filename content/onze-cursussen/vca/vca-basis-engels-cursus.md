@@ -7,11 +7,6 @@ price: 199
 Summary: "asdfasdfasdf"
 TopImage: "images/vca.jpg"
 ---
-
-
- VCA Engels Basis
-€ 199,-
-
 Wist u dat aannemers en werknemers het bezit van een B-VCA certificaat veronderstellen? Daarom is het, wanneer u werkt met gevaarlijke werkomstandigheden, van essentiële waarde een VCA cursus Engels te volgen. Een veelgevraagde functie-eis is het bezit van een B-VCA certificaat. Hiermee kunt u aantonen bekwaam te zijn in het uitvoeren van gevaarlijke werkzaamheden. Orbi Opleidingen is een opleider die werkt volgens de eisen van VCA en zowel de cursus als het examen aanbiedt in uw taal.
 Inhoud VCA Cursus Engels
 

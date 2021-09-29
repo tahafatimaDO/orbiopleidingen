@@ -7,6 +7,10 @@ $yellow: #ffc107;
     }
 }
 
+.breadcrumbs{
+    font-size: 0.8rem;
+}
+
 .course{
     &.side-summary{
         border: 1px solid slategray;
@@ -81,6 +85,7 @@ $yellow: #ffc107;
         background-color: #ffc107a6;
         border: 1px solid #ffc107;
         padding: 8px;
+        vertical-align: middle;
         h3{
             font-weight: bold;
         }
@@ -107,4 +112,43 @@ $yellow: #ffc107;
             color: white;
         }
     }
+}
+
+.navbar-nav{
+    .nav-item{
+        margin-bottom: 2px;
+        &:hover{
+            border-bottom: 2px solid slategray;
+            margin-bottom: 0px;
+        }
+        .nav-link{
+            font-weight: bold;
+        }
+    }
+}
+
+.application_form{
+    background-color: rgba(128, 128, 128, 0.178);
+    padding: 10px;
+}
+.apply{
+    background-color: #0062b9cc;
+    .company{
+        background-color: rgba(255, 255, 255, 0.39);
+    }
+    .student{
+        background-color: rgba(255, 255, 255, 0.39);
+        margin: 1.5rem 0;
+    }
+    .summary{
+        background-color: rgba(255, 255, 255, 0.39);
+    }
+}
+
+.select-event{
+    padding: 0;
+        li{
+            list-style: none;
+
+        }
 }

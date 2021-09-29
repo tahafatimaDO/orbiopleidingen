@@ -1,8 +1,6 @@
 {{ define "main" }}
 
 
-{{ $built := resources.Get "scripts/course.js" | js.Build "main.js" }}
-<script type="script/javascript" src="{{ $built.RelPermalink }}"></script>
 
 <div class="row">
     <div class="col-md-8">
@@ -27,15 +25,16 @@
             </ul>
             <p>Eerstvolgende cursus: <br><strong>Zaterdag 20 september</strong></p>
             <div class="apply">
-                <a href="#">Inschrijven</a>
+                <a href="#root">Inschrijven</a>
             </div>
         </div>
     </div>
     <div class="row">
-        <div id="root"></div>
+        <div id="root" course="1"></div>
     </div>
 </div>
 
-
+{{ $built := resources.Get "scripts/course.jsx" | js.Build "main.js" }}
+<script src="{{ $built.RelPermalink }}"></script>
 
 {{ end }}

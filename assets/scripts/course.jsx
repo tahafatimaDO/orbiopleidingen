@@ -11,7 +11,7 @@ import GetEvents from './getEvents';
 
 const tagManagerArgs = {
     gtmId: 'GTM-NJJRBDD'
-};
+}
 
 const advancedMatching = { em: 'some@email.com' }; // optional, more info: https://developers.facebook.com/docs/facebook-pixel/advanced/advanced-matching
 const options = {
@@ -20,9 +20,9 @@ const options = {
 };
 
 ReactPixel.init('1066495357175165', {}, options);
-TagManager.initialize(tagManagerArgs);
+TagManager.initialize(tagManagerArgs)
 
-// TagManager.dataLayer
+TagManager.dataLayer
 class Course extends React.Component {
     constructor() {
         super();
@@ -85,9 +85,9 @@ class Course extends React.Component {
         this.setState({ students: newList });
         console.log(newList);
         this.totalPrice();
-    }
+    };
 
-    studentOptions() {
+    studentOptions = () => {
         var totaloptions = 0;
 
         this.state.students.forEach(student => {
@@ -98,7 +98,7 @@ class Course extends React.Component {
         return totaloptions;
     }
 
-    totalPrice () {
+    totalPrice = () => {
         var options = this.studentOptions();
 
         const students = this.state.students.length;
@@ -111,7 +111,7 @@ class Course extends React.Component {
         this.setState({ totalPrice: total });
     }
 
-    deleteStudent(event){
+    deleteStudent = event => {
         console.log(event);
         const studentsLength = this.state.students.length;
 
@@ -128,7 +128,7 @@ class Course extends React.Component {
         // this.totalPrice();
     }
 
-    changeHandler(event) {
+    changeHandler = event => {
 
         const id = event.target.id;
         const name = event.target.name;
@@ -173,7 +173,7 @@ class Course extends React.Component {
 
     }
 
-    handleOption(event){
+    handleOption = event => {
 
         const target = event.target;
         const id = event.target.id;
@@ -220,7 +220,7 @@ class Course extends React.Component {
         this.totalPrice();
     }
 
-    setCompany(event){
+    setCompany = event => {
 
         if (event.target.name == 'email') {
             const user = this.state.company.User
@@ -264,7 +264,7 @@ class Course extends React.Component {
             })
     }
 
-    onSubmit(e){
+    onSubmit = (e) => {
         this.setState({ isLoading: true });
         e.preventDefault();
         const company = this.state.company;
@@ -286,11 +286,11 @@ class Course extends React.Component {
                     self.setState({ errors: res['errors'] });
                     console.log("tadam iiii")
 
-                    // self._renderItems()
+                    self._renderItems()
                 } else {
                     self.setCompanyComplete()
                     var company = self.state.company;
-                    company.id = res;
+                    company['id'] = res;
                     self.setState({ company });
                     console.log("adsfasdfasdf")
                     const args = {
@@ -315,12 +315,12 @@ class Course extends React.Component {
 
 
 
-    setCompanyComplete(){
+    setCompanyComplete = () => {
         this.setState({ companyState: true });
         return null;
     }
 
-    createStudents(res){
+    createStudents = (res) => {
         this.setState({ isLoading: true });
 
         var self = this;
@@ -331,7 +331,7 @@ class Course extends React.Component {
 
         for (let index = 0; index < students.length; index++) {
             // students[index]['Company'] = res;
-            students[index].Status = 'tead';
+            students[index]['Status'] = 'tead';
         }
 
         fetch('https://vcadeal.nl/student/new', {
@@ -343,15 +343,15 @@ class Course extends React.Component {
                 self.setState({ isLoading: false });
 
                 console.log(res);
-                if (res.errors) {
+                if (res['errors']) {
                     // self.setState({errors: res['errors']});
                     const students = self.state.students;
                     for (let index = 0; index < students.length; index++) {
-                        students[index].errors = res.errors[index];
+                        students[index]['errors'] = res['errors'][index]
                     }
 
                     self.setState({ students });
-                    console.log("tadam iiii");
+                    console.log("tadam iiii")
 
                     return null;
                 }
@@ -367,20 +367,20 @@ class Course extends React.Component {
                     students[index].id = res[index];
                 }
 
-                self.setState({ students });
+                self.setState({ students })
 
                 self.createSale(res);
             })
             .catch(function (res) {
-                console.log(res);
-            });
+                console.log(res)
+            })
     }
 
-    applicationSuccess(){
+    applicationSuccess = () => {
         this.setState({ success: true });
     }
 
-    createSale(res){
+    createSale = (res) => {
         this.setState({ isLoading: true });
 
         const event = this.state.event;
@@ -397,7 +397,7 @@ class Course extends React.Component {
             .then(function (res) {
                 self.setState({ isLoading: false });
 
-                console.log("sale created");
+                console.log("sale created")
 
                 self.applicationSuccess();
                 console.log(res);
@@ -417,14 +417,14 @@ class Course extends React.Component {
             })
     }
 
-    // _renderItems() {
-    //     const errors = this.state.errors;
-    //     for (var key in errors) {
-    //         if (errors.hasOwnProperty(key)) {
-    //             return (<li>{key} {errors[key]} </li>)
-    //         }
-    //     }
-    // }
+    _renderItems() {
+        const errors = this.state.errors;
+        for (var key in errors) {
+            if (errors.hasOwnProperty(key)) {
+                <li>{key} {errors[key]}</li>
+            }
+        }
+    }
 
     render() {
         const isLoggedIn = this.state.isLoading;

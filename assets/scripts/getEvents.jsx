@@ -32,17 +32,13 @@ const GetEvents = ({event}) => {
             <div>
                 <h3 className="title is-three">Stap 1 - Selecteer datum</h3>
                 <p>Selecteer cursusmoment</p>
-                <ul>
+                <ul className="select-event list-group">
                 {events.map(event => {
                     return(
-                        <li>
-                            <div className="card" value={event.id} onClick={() => selectEvent(event.id)}>
-                            <header className="card-header">
-                                <p className="card-header-title">
-                                {event.location} - {("0" + new Date(event.date).getDate()).slice(-2)  }-{("0" + (new Date(event.date).getMonth() + 1)).slice(-2)   }-{new Date(event.date).getFullYear()}  {event.id == selected && <i className="fas fa-check-circle fa-lg"></i>}
-                                </p>
-                            </header>
-                            </div>
+                        <li className="list-group-item" value={event.id} onClick={() => selectEvent(event.id)}>
+
+                                {event.location} - {("0" + new Date(event.date).getDate()).slice(-2)  }-{("0" + (new Date(event.date).getMonth() + 1)).slice(-2)   }-{new Date(event.date).getFullYear()}  {event.id == selected && <span><i className="fas fa-check-circle fa-lg"></i> Geselecteerd</span>}
+
                         </li>
                     )      
                 })}

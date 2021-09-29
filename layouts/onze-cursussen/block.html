@@ -10,7 +10,9 @@
                 <h5 class="card-title">{{.Params.Title}}</h5>
                 <span class="ms-auto">€{{.Params.Price}},-</span>
             </div>
-			
+			{{range .Params.tags }}
+				<span class="badge bg-success">{{.}}</span>
+			{{end}}
 			<p class="card-text">{{.Summary}}</p>
             <ul>
                 {{range .Params.pos }}
