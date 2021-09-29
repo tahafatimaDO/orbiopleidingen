@@ -1,7 +1,7 @@
 {{- $image := resources.Get "images/logo_orbi.png" -}}
 
 {{ $colorScheme := default "light" .Site.Params.header.colorScheme }}
-<div class="top-header">
+<div class="top-header ">
     <a class="logo" href="{{ .Site.BaseURL | relLangURL }}">
         <img src="{{ $image.RelPermalink }}" width="200" alt="">
     </a>

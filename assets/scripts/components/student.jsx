@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Student = (props) => (
-     <div className="card col-md-12 student">
-        <h4>Cursist {props.id + 1} <span className="close" data-dismiss="alert" aria-label="Close" id={props.id} onClick={props.delete} name="delete"><span aria-hidden="true">&times;</span></span>
+     <div className="card col-md-12 block student">
+        <h4>Cursist {props.id + 1}   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" id={props.id} onClick={props.delete}></button>
 </h4>
         
         <div className="row">

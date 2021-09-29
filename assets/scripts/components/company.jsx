@@ -6,7 +6,7 @@ import React from 'react';
         return <CompanySuccess companyName={props.name} companyEmail={props.email} companyCity={props.city} companyStreet={props.street} companyPostcode={props.postcode} companyPhone={props.phone} /> ;
      } else {
         return (
-            <div key={props.id} className="card col-md-12 company">
+            <div key={props.id} className="card col-md-12 block company">
                 <h4>Contactgegevens</h4>
                 <div className="row">
                     <div className="form-group col-md-6">

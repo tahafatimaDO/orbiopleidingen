@@ -453,17 +453,16 @@ class Course extends React.Component {
                     </div>
                 </div>
                 {this.state.event != [] &&
-                    <div className="columns apply application_form">
-                        <div className="column is-two-third">
-                            <h3 className="title is-three">Stap 2 Aanmelden</h3>
+                    <div className="row application_form">
+                        <div className="col-md-8">
+                            <h1>Aanmelden</h1>
                             <Company handleChange={this.setCompany} errors={this.state.errors} name={this.state.company.Name} email={this.state.company.User.email} phone={this.state.company.Phone} city={this.state.company.City} street={this.state.company.Street} postcode={this.state.company.Postcode} companystate={this.state.companyState} />
-                            <h3 className="title is-three">Stap 3 Vul cursisten gegevens in</h3>
                             {this.state.students.map(({ id, firstname, lastname, email, birthdate, errors }) =>
                                 <Student key={id} handleChange={this.changeHandler} handleOption={this.handleOption} delete={() => this.deleteStudent(id)} id={id} firstname={firstname} errors={errors} lastname={lastname} email={email} birthdate={birthdate} additions={this.state.additions} />
                             )}
-                            <p className="button is-warning" onClick={this.addStudent}><i className="fas fa-user-plus"></i> Extra student </p>
+                            <p className="btn btn-primary" onClick={this.addStudent}><i className="fas fa-user-plus"></i> Extra student </p>
                         </div>
-                        <div className="column is-one-third">
+                        <div className="col-md-4">
                             <Sumary students={this.state.students} price={this.state.totalPrice} loading={loading} event={this.state.event} submit={this.onSubmit} />
                         </div>
                     </div>

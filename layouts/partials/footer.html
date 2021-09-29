@@ -1,0 +1,8 @@
+{{ $colorScheme := default "light" .Site.Params.footer.colorScheme }}
+
+<footer class="blog-footer w-100">
+    <nav class="navbar navbar-{{ $colorScheme }} bg-{{ $colorScheme }}">
+        <p class="w-100 text-center">&copy; 2021 - Orbi Opleidingen</p>
+        <p class="w-100 text-center"><a href="#">{{ i18n "backToTop" }}</a></p>
+    </nav>
+</footer>

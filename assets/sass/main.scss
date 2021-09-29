@@ -88,6 +88,8 @@ $yellow: #ffc107;
         vertical-align: middle;
         h3{
             font-weight: bold;
+            font-size: 1.3rem;
+            margin: 0;
         }
     }
 }
@@ -130,6 +132,11 @@ $yellow: #ffc107;
 .application_form{
     background-color: rgba(128, 128, 128, 0.178);
     padding: 10px;
+
+    .block{
+        padding: 10px;
+        margin: 5px 0;
+    }
 }
 .apply{
     background-color: #0062b9cc;
@@ -151,4 +158,27 @@ $yellow: #ffc107;
             list-style: none;
 
         }
+}
+
+.btn-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    padding: 1.25rem 1rem;
+    font-size: 12px;
+}
+
+.summary{
+    // background-color: rgba(255, 251, 31, 0.514);
+    background-color: gray;
+    border-radius: 4px;
+    padding: 8px;
+    p{
+        margin: 3px 0;
+    }
+    li{
+        list-style: none;
+        margin: 5px 0;
+    }
 }

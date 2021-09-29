@@ -26,9 +26,12 @@
     {{ partial "head-custom.html" . }}
   </head>
   <body>
-    {{ block "header" . }}
+    <div class="container">
+      {{ block "header" . }}
       {{ partial "header" . }}
     {{ end }}
+    </div>
+    
 
     {{ block "body" . }}
     <div class="container">

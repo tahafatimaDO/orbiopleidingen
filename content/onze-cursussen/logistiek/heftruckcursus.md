@@ -4,7 +4,7 @@ date: 2021-09-21T18:59:29+02:00
 draft: true
 description: "Tadam"
 price: 189
-Summary: "asdfasdfasdf"
+Summary: "Heftruck cursus in 1 dag"
 TopImage: "images/vca.jpg"
 pos:
 -   Gratis gezonde lunch
