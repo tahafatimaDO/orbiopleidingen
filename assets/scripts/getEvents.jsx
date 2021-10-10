@@ -6,16 +6,29 @@ const GetEvents = ({event}) => {
     const [events, setEvents] = React.useState([]);
     const [selected, setSelected] = React.useState();
     const [load, setLoad] = React.useState(true);
+    const [error, setError] = React.useState(false);
+
+    const days = ['zondag', 'maandag', 'dinsdag', 'woensdag', 'donderdag', 'vrijdag', 'zaterdag'];
+    const months = ['januari', 'februari', 'maart', 'april', 'mei', 'juni', 'juli', 'augustus', 'september', 'oktober', 'november', 'december'];
 
     useEffect(() => {
         const course = document.getElementById('root').getAttribute('course')
         fetch("https://vcadeal.nl/api/events/" + course)
-        .then(res => res.json())
+        .then(res => {
+            if(res.ok){
+                return res.json()
+            }
+            setError(true);
+
+        })
         .then(res => {
             setEvents(res);
             setLoad(false);
+            return res
         })
-
+        .then(res => {
+            document.getElementById('first-upcoming').innerHTML = days[new Date(res[0].date).getDay()] + " " + new Date(res[0].date).getDate() + " " + months[new Date(res[0].date).getMonth()]
+        })
         
     }, [])
 
@@ -23,6 +36,9 @@ const GetEvents = ({event}) => {
         setSelected(id)
         event(id)
         // document.getElementById('eventID').innerHTML = event.target.value;
+    }
+    if(error){
+        return <div>Er is iets misgegaan bij het ophalen van de cursusmomenten. Laad de pagina opnieuw of neem telefonisch contact op.</div>
     }
 
     if(load){

@@ -167,8 +167,6 @@ class Course extends React.Component {
             this.setState({ students });
         }
 
-
-
         this.totalPrice();
 
     }
@@ -432,8 +430,6 @@ class Course extends React.Component {
         if (isLoggedIn) {
             loading = <Spinner />;
         }
-
-
 
         if (this.state.success) {
             return (

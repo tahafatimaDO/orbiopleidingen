@@ -7,7 +7,7 @@ $yellow: #ffc107;
     }
 }
 
-.breadcrumbs{
+#breadcrumbs{
     font-size: 0.8rem;
 }
 
@@ -70,11 +70,15 @@ $yellow: #ffc107;
 
     .quick-links{
         display: inline-block;
-
         ul{
             list-style: none;
             li{
                 display: inline-block;
+                border: 1px solid black;
+                a{
+                    color:black;
+                    font-weight: bold;
+                }
             }
         }
     }
@@ -91,6 +95,14 @@ $yellow: #ffc107;
             font-size: 1.3rem;
             margin: 0;
         }
+    }
+}
+
+.mobile-menu-toggle{
+    background-color: $orange;
+    padding: 5px;
+    .navbar-toggler-icon{
+        color: $orange;
     }
 }
 
@@ -116,18 +128,31 @@ $yellow: #ffc107;
     }
 }
 
-.navbar-nav{
-    .nav-item{
-        margin-bottom: 2px;
-        &:hover{
-            border-bottom: 2px solid slategray;
-            margin-bottom: 0px;
-        }
-        .nav-link{
-            font-weight: bold;
+.blog-header{
+    background-color: rgb(27, 27, 27) !important;
+    .navbar-nav{
+        .nav-item{
+            margin-bottom: 2px;
+            &:hover{
+                border-bottom: 2px solid slategray;
+                margin-bottom: 0px;
+            }
+            .nav-link{
+                font-weight: bold;
+                color: $orange;
+            }
         }
     }
 }
+
+.block{
+    &-top-image{
+        background-size: cover;
+        height: 130px;
+        background-position: center center;
+    }
+}
+
 
 .application_form{
     background-color: rgba(128, 128, 128, 0.178);
@@ -139,7 +164,7 @@ $yellow: #ffc107;
     }
 }
 .apply{
-    background-color: #0062b9cc;
+    background-color: #2197ddcc;
     .company{
         background-color: rgba(255, 255, 255, 0.39);
     }
@@ -171,9 +196,10 @@ $yellow: #ffc107;
 
 .summary{
     // background-color: rgba(255, 251, 31, 0.514);
-    background-color: gray;
+    background-color: #4040401c;
     border-radius: 4px;
     padding: 8px;
+    border: 1px solid slategray;
     p{
         margin: 3px 0;
     }

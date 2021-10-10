@@ -1,8 +1,18 @@
-<span class="breadcrumbs">
+<div id="breadcrumbs">
     <a href="/">Home</a>
-    {{ range (split .URL "/") }}
-        {{ if gt (len . ) 0 }}
-            / <a href="/{{ . }}">{{ humanize (replace . "posts" "blog") }}</a>
+    {{ .Scratch.Set "permalinkparts" (split .RelPermalink "/") }}
+    {{ range $index, $part := (.Scratch.Get "permalinkparts") }}
+        {{ range $i, $num := (seq 10) }}
+            {{ if ge $index $i }}
+                {{ if eq $i 0 }}
+                    {{ $.Scratch.Set "url" (index ($.Scratch.Get "permalinkparts") $i) }}
+                {{ else }}
+                    {{ $.Scratch.Add "url" (print (index ($.Scratch.Get "permalinkparts") $i) "/") }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+        {{ if gt (len $part ) 0 }}
+            / <a href="/{{ $.Scratch.Get "url" }}">{{ humanize (replace $part "posts" "blog") }}</a>
         {{ end }}
     {{ end }}
-</span>
+</div>

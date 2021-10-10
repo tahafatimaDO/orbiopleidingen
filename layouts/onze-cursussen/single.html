@@ -11,7 +11,6 @@
         <article class="blog-post">
             {{ .Content }}
             {{ partial "translations.html" . }}
-            {{ partial "related" . }}
         </article>
     </div>
     <div class="col-md-4 ">
@@ -20,19 +19,22 @@
             <p class="price"><strong>€{{.Params.Price}},-</strong> exc. BTW</p>
             <hr>
             <ul>
-                <li>Meerdere cursusmomenten per week</li>
-                <li>In 1 dag je VCA</li>
+                {{range .Params.pos }}
+				<li>{{.}}</li>
+			    {{end}}
+                
             </ul>
-            <p>Eerstvolgende cursus: <br><strong>Zaterdag 20 september</strong></p>
+            <p>Eerstvolgende cursus: <br><strong id="first-upcoming">  <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span></strong></p>
             <div class="apply">
                 <a href="#root">Inschrijven</a>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div id="root" course="1"></div>
+        {{ partial "related" . }}
+
     </div>
 </div>
+<div id="root" course="{{.Params.courseId}}"></div>
+
 
 {{ $built := resources.Get "scripts/course.jsx" | js.Build "main.js" }}
 <script src="{{ $built.RelPermalink }}"></script>
