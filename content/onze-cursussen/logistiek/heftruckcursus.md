@@ -10,6 +10,8 @@ pos:
 -   Gratis gezonde lunch
 -   Cursus + examen in 1 dag
 -   Direct VCA pas
+tags:
+  - heftrucknederlands
 ---
 
 Uw werkgever en opdrachtgevers willen dat er veilig wordt gewerkt, zodat niemand `iets overkomt. Met een B-VCA diploma op zak weet u wat er op de werkplek van u verwacht wordt. Tevens is het voor werkgevers belangrijk zodat zij weten dat u zich aan de regels houden.

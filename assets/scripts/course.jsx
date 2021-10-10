@@ -66,7 +66,6 @@ class Course extends React.Component {
         };
         this.getEvent = this.getEvent.bind(this);
         this.addStudent = this.addStudent.bind(this);
-
     }
 
 

@@ -5,25 +5,25 @@
   translation: "Tags"
 
 - id: categories
-  translation: "Categories"
+  translation: "Categorien"
 
 - id: readMore
-  translation: "Read More →"
+  translation: "Verder lezen →"
 
 - id: translations
-  translation: "Translations"
+  translation: "Lees in andere taal"
 
 - id: related
   translation: "Zie ook"
 
 - id: recentPosts
-  translation: "Recent Posts"
+  translation: "Recente Berichten"
 
 - id: backToTop
-  translation: "Back to top"
+  translation: "Naar boven scrollen"
 
 - id: language
-  translation: "Language"
+  translation: "Andere taal"
 
 - id: thanks
   translation: "Hugo template made with ❤ by {{.Xzya}}, inspired by {{.HugoThemeBootstrap4Blog}}"

@@ -1,4 +1,17 @@
 baseURL = 'http://example.org/'
-languageCode = 'nl-nl'
+DefaultContentLanguage = 'nl'
 title = 'Orbi Opleidingen'
 theme = "bootstrap"
+
+[languages]
+  [languages.nl]
+    title = 'Orbi Opleidingen'
+    weight = 1
+    LanguageName = 'Nederlands'
+
+  [languages.en]
+    title = 'Orbi Education'
+    weight = 2
+    LanguageName = 'English'
+    [languages.en.params]
+      linkedin = 'https://linkedin.com/whoever'

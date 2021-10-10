@@ -1,5 +1,6 @@
 import React, { useEffect } from "react"
-import ReactDOM from 'react-dom';
+import {Helmet} from "react-helmet";
+import { nanoid } from 'nanoid'
 
 const GetEvents = ({event}) => {
 
@@ -51,19 +52,71 @@ const GetEvents = ({event}) => {
                 <ul className="select-event list-group">
                 {events.map(event => {
                     return(
+                        <>
                         <li className="list-group-item" value={event.id} onClick={() => selectEvent(event.id)}>
-
-                                {event.location} - {("0" + new Date(event.date).getDate()).slice(-2)  }-{("0" + (new Date(event.date).getMonth() + 1)).slice(-2)   }-{new Date(event.date).getFullYear()}  {event.id == selected && <span><i className="fas fa-check-circle fa-lg"></i> Geselecteerd</span>}
-
+                            {event.location} - {days[new Date(event.date).getDay()] + " " + new Date(event.date).getDate() + " " + months[new Date(event.date).getMonth()]}  {event.id == selected && <span><i className="fas fa-check-circle fa-lg"></i> Geselecteerd</span>}
                         </li>
+                        <Helmet>
+                        <script key={nanoid()} type="application/ld+json">{`
+                            {
+                                "@context": "http://schema.org"
+                            }
+                        `}</script>
+                        </Helmet>
+                        </>
                     )      
                 })}
                 </ul>
+                {events.map(event => {
+                    return <Helmet>
+                    <script key={nanoid()} type="application/ld+json">
+                        {`
+                        "@context": "https://schema.org",
+                        "@type": "EducationEvent",
+                        "name": ${event.course},
+                        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                          "eventStatus": "https://schema.org/EventScheduled",
+                        "location": {
+                            "@type": "Place",
+                            "name": "Orbi Opleidingen",
+                            "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Sydneystraat 118",
+                            "addressLocality": "Rotterdam",
+                            "postalCode": "3047 BP",
+                            "addressCountry": "NL"
+                            }
+                        },
+                        "image": [
+                            "https://vcadeal.nl/media/logo.png"
+                        ],
+                        "description":
+{{event.course.description|json_encode()|raw}},
+                        "offers": {
+                            "@type": "Offer",
+                            "url": "https://vcadeal.nl/",
+                            "price": "{{event.price}}",
+                            "priceCurrency": "EUR",
+                            "availability": "https://schema.org/InStock",
+                            "validFrom": "2024-05-21T12:00"
+                        },
+                        "performer": {
+                            "@type": "PerformingGroup",
+                            "name": "Orbi Opleidingen"
+                        },
+                        "organizer": {
+                            "@type": "Organization",
+                            "name": "VCA 365",
+                            "url": "https://vcadeal.nl"
+                            }
+                        }
+                        `}
+                    </script>
+                </Helmet>
+                })}
             </div>
         )
     }
 }
 
 export default GetEvents;
-
-// ReactDOM.render(<GetEvents />, document.getElementById('events'));

@@ -10,7 +10,6 @@
         </header>
         <article class="blog-post">
             {{ .Content }}
-            {{ partial "translations.html" . }}
         </article>
     </div>
     <div class="col-md-4 ">
@@ -30,6 +29,7 @@
             </div>
         </div>
         {{ partial "related" . }}
+        {{ partial "translations.html" . }}
 
     </div>
 </div>
