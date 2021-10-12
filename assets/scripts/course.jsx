@@ -68,6 +68,36 @@ class Course extends React.Component {
         this.addStudent = this.addStudent.bind(this);
     }
 
+    checkInput = () => {
+        const checks = ['Firstname', 'Lastname', 'email', 'Phone', 'City', 'Postcode', 'Street', 'Name'];
+
+        const company = this.state.company;
+        const errors = [];
+        var count = 0;
+        for (const [key, value] of Object.entries(company)) {
+            if(checks.includes(key) && value == ''){
+                errors[key] = "veld is verplicht"
+                count++;
+            }
+          }
+
+
+        const students = [...this.state.students];
+        students.map((student, key) => {
+            const errors = {};
+
+            for (const [key, value] of Object.entries(student)) {
+                if(checks.includes(key) && value == '' && typeof value === 'string'){
+                    errors[key] = "veld is verplicht"
+                    count++
+                }
+              }
+            student.errors = errors
+        })
+
+        this.setState({errors: errors, students: students})
+        return count
+    }
 
 
     componentDidMount() {
@@ -261,132 +291,23 @@ class Course extends React.Component {
             })
     }
 
-    onSubmit = (e) => {
-        this.setState({ isLoading: true });
-        e.preventDefault();
-        const company = this.state.company;
-        var self = this;
-        if (company.id) {
-            return self.createStudents(company.id);
-        }
-        var self = this;
-        fetch('https://vcadeal.nl/api/company/new', {
-            method: "POST",
-            body: JSON.stringify({ company })
-        })
-            .then((response) => {
-                this.setState({ isLoading: false });
-                return response.json();
-            })
-            .then(function (res) {
-                if (res['errors']) {
-                    self.setState({ errors: res['errors'] });
-                    console.log("tadam iiii")
-
-                    self._renderItems()
-                } else {
-                    self.setCompanyComplete()
-                    var company = self.state.company;
-                    company['id'] = res;
-                    self.setState({ company });
-                    console.log("adsfasdfasdf")
-                    const args = {
-                        dataLayer: {
-                            event: "company_created"
-                        },
-                        dataLayerName: "PageDataLayer"
-                    };
-                    TagManager.dataLayer(args)
-
-                    ReactPixel.trackCustom('Company created')
-
-                    self.createStudents(res);
-
-                }
-            })
-            .catch(function (res) {
-                console.log('error melding: ')
-                console.log(res)
-            })
-    }
-
-
-
-    setCompanyComplete = () => {
-        this.setState({ companyState: true });
-        return null;
-    }
-
-    createStudents = (res) => {
-        this.setState({ isLoading: true });
-
-        var self = this;
-        this.setState({ companyId: res });
-
-        const students = this.state.students;
-        console.log("adfadfs " + res);
-
-        for (let index = 0; index < students.length; index++) {
-            // students[index]['Company'] = res;
-            students[index]['Status'] = 'tead';
-        }
-
-        fetch('https://vcadeal.nl/student/new', {
-            method: "POST",
-            body: JSON.stringify({ students })
-        })
-            .then(response => response.json())
-            .then(function (res) {
-                self.setState({ isLoading: false });
-
-                console.log(res);
-                if (res['errors']) {
-                    // self.setState({errors: res['errors']});
-                    const students = self.state.students;
-                    for (let index = 0; index < students.length; index++) {
-                        students[index]['errors'] = res['errors'][index]
-                    }
-
-                    self.setState({ students });
-                    console.log("tadam iiii")
-
-                    return null;
-                }
-
-                console.log(res);
-
-                console.log("tadam");
-                const students = self.state.students;
-                // students.for(student => {
-                //     student.id = res[id];
-                // });
-                for (let index = 0; index < students.length; index++) {
-                    students[index].id = res[index];
-                }
-
-                self.setState({ students })
-
-                self.createSale(res);
-            })
-            .catch(function (res) {
-                console.log(res)
-            })
-    }
-
     applicationSuccess = () => {
         this.setState({ success: true });
     }
 
-    createSale = (res) => {
+    onSubmit = (res) => {
         this.setState({ isLoading: true });
-
+        if(this.checkInput() != 0){
+            this.setState({ isLoading: false });
+            return;
+        }
         const event = this.state.event;
-        const company = this.state.companyId;
+        const company = this.state.company;
         const price = this.state.totalPrice;
         const students = this.state.students;
         var self = this;
 
-        fetch('https://vcadeal.nl/api/sale/new', {
+        fetch('https://localhost:8000/api/booking/new', {
             method: "POST",
             body: JSON.stringify({ event, students, company, price })
         })

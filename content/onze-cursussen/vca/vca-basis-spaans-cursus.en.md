@@ -28,3 +28,4 @@ After following the course you are fully aware of all basic knowledge, as stated
      Subsequent exam
      08:00 am – 15:30 pm
      Certificate + pass
+     dddd

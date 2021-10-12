@@ -4,7 +4,6 @@ date: 2021-09-21T18:59:29+02:00
 draft: true
 description: "Tadam"
 price: 189
-courseId: 23
 Summary: "Heftruck cursus in 1 dag"
 TopImage: "images/vca.jpg"
 pos:
@@ -14,7 +13,7 @@ pos:
 tags:
   - heftrucknederlands
 ---
-
+ddd
 Uw werkgever en opdrachtgevers willen dat er veilig wordt gewerkt, zodat niemand `iets overkomt. Met een B-VCA diploma op zak weet u wat er op de werkplek van u verwacht wordt. Tevens is het voor werkgevers belangrijk zodat zij weten dat u zich aan de regels houden.
 Inhoud van de VCA Basis cursus
 
