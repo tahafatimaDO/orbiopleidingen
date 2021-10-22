@@ -308,7 +308,7 @@ class Course extends React.Component {
         const students = this.state.students;
         var self = this;
 
-        fetch('https://localhost:8000/api/booking/new', {
+        fetch('https://vcadeal/api/booking/new', {
             method: "POST",
             body: JSON.stringify({ event, students, company, price })
         })
