@@ -1,8 +1,42 @@
 {{ $colorScheme := default "light" .Site.Params.footer.colorScheme }}
 
 <footer class="blog-footer w-100">
-    <nav class="navbar navbar-{{ $colorScheme }} bg-{{ $colorScheme }}">
-        <p class="w-100 text-center">&copy; 2021 - Orbi Opleidingen</p>
-        <p class="w-100 text-center"><a href="#">{{ i18n "backToTop" }}</a></p>
-    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h3>Meer weten</h3>
+                <a href="tel:010 737 1700" class="contact-link">010 737 1700</a>
+                <a href="mailto:info@orbiopleidingen.nl" class="contact-link">info@orbiopleidingen.nl</a>
+                <p>Bereikbaar op werkdagen tussen 09:00 - 17:00 en op zaterdagen vanaf 09:00 tot 17:00</p>
+                <p>Getoonde prijzen zijn exclusief 21% btw.</p>
+            </div>
+            <div class="col-md-3">
+                <h3>Locatie</h3>
+                <ul class="footer-location">
+                    <li>Hofweg 37</li>
+                    <li>3046 NJ Rotterdam</li>
+                    <li>KVK-nummer: 67631746h3</li>
+                    <li>IBAN: </li>
+                    <li>BTW: </li>
+                </ul>
+                
+            </div>
+            <div class="col-md-3">
+                <h3> </h3>
+                <ul>
+                    <li>Algemene voorwaarden</li>
+                    <li>Privacy verklaring</li>
+                    <li>Cookieverklaring</li>
+                    <li>Disclaimer</li>
+                    <li>Sitemap</li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                onze klanten geven ons
+            </div>
+        </div>
+    
+    
+        <span class="w-100 text-center">&copy; 2021 - Orbi Opleidingen</span>
+</div>
 </footer>

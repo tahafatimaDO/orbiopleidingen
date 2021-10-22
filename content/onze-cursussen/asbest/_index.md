@@ -4,6 +4,8 @@ date: 2021-09-21T18:59:29+02:00
 draft: true
 menu: main
 description: "Tadam"
+TopImage: "images/asbest.jpeg"
+intro: "In 2 dagen opgeleid worden tot asbestsaneerder? Dat kan zeker! Wij bieden verschillende asbest cursussen aan, die wekelijks starten. Wij brengen u de theoretische kennis en praktische vaardigheden bij. Wat bieden wij u nog meer? Deskundige begeleiding en een persoonlijke aanpak. Zodat u straks een asbest expert bent met up-to-date kennis én 100% veilig kunt werken."
 ---
 *voor en door professionals*
 ## Onze VCA cursussen

@@ -37,6 +37,7 @@ class Course extends React.Component {
             event: "",
             errors: [],
             current: "",
+            checkbox: false,
             additions: [
 
             ],
@@ -379,7 +380,7 @@ class Course extends React.Component {
                             <p className="btn btn-primary" onClick={this.addStudent}><i className="fas fa-user-plus"></i> Extra student </p>
                         </div>
                         <div className="col-md-4">
-                            <Sumary students={this.state.students} price={this.state.totalPrice} loading={loading} event={this.state.event} submit={this.onSubmit} />
+                            <Sumary students={this.state.students} price={this.state.totalPrice} checkbox={this.state.checkbox} loading={loading} event={this.state.event} submit={this.onSubmit} />
                         </div>
                     </div>
                 }

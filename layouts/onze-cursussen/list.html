@@ -3,14 +3,22 @@
 {{ $truncate := default true .Site.Params.truncate }}
 
 <header class="header">
-    <div class="top-courses">
-        <h3>Top 3 VCA:</h3>
+    {{ $posts := (where .Pages ".Params.featured" "==" true) }}
+        {{ $postCount := len $posts }}
+        {{ if gt $postCount 0  }}
+    <div class="top-courses d-none d-lg-block">
+
+
+        
+        <h3>Top {{$postCount}} {{.Params.title}}:</h3>
         <ul>
-            <li><a href="#">VCA Basis Cursus</a></li>
-            <li><a href="#">VCA VOL Cursus</a></li>
-            <li><a href="#">VIL VCU Cursus</a></li>
+            {{ range where .Pages ".Params.featured" "==" true }}
+                <li><a href="#">{{.Title}}</a></li>
+            {{end}}
         </ul>
     </div>
+    {{ end }}
+
     <div class="category-header">
         <h1 class="blog-post-title">
             <a class="text-dark text-decoration-none" href="{{ .RelPermalink }}">{{ .Title | markdownify }} cursussen</a>
@@ -20,14 +28,6 @@
             <div class="col-md-6">
                 <p>{{ .Params.intro }}</p>
             </div>
-            <div class="col-md-4 offset-md-2">
-                <ul>
-                    <li>VCA Basis</li>
-                    <li>VCA VOL</li>
-                    <li>VIL VCU</li>
-                </ul>
-            </div>
-        </div>
     </div>
 
     

@@ -27,9 +27,13 @@ import React from 'react';
             </ul>
             <p>Totaal: €{props.price},- euro</p>
             <small>Totaal inclusief btw: €{(props.price*1.21).toFixed(2)} (21% btw)</small><br></br>
-            <button href="#" onClick={props.submit} className="btn btn-primary">{props.loading} Aanmelden</button>
-            <p><small>Bij het aanmelden voor de cursus gaat u akkoord met onze <a href="/page/algemene-voorwaarden">algemene voorwaarden</a>.</small></p>
-            <p><small>U hoeft niet direct te betalen. Wij sturen u een factuur toe.</small></p>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                <label class="form-check-label" for="flexCheckDefault">
+                    Ik ga akkoord met algemene voorwaarden
+                </label>
+            </div>
+            <button href="#" onClick={props.submit} className="btn btn-primary">{props.loading} Aanmelding versturen</button>
         </div>
     )
  }

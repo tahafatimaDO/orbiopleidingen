@@ -2,6 +2,7 @@
 title: "VCA VOL Cursus"
 date: 2021-09-21T18:59:29+02:00
 draft: true
+weight: 10
 description: "Tadam"
 price: 199
 Summary: "asdfasdfasdf"
@@ -9,6 +10,7 @@ TopImage: "images/vca.jpg"
 courseId: 2
 tags:
   - "vcanederlands"
+featured: true
 ---
 Uw werkgever en opdrachtgevers willen dat er veilig wordt gewerkt, zodat niemand iets overkomt. Met een B-VCA diploma op zak weet u wat er op de werkplek van u verwacht wordt. Tevens is het voor werkgevers belangrijk zodat zij weten dat u zich aan de regels houden.
 Inhoud van de VCA Basis cursus

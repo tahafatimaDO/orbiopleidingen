@@ -56,8 +56,8 @@ const GetEvents = ({event}) => {
                         <li className="list-group-item" value={event.id} onClick={() => selectEvent(event.id)}>
                             {event.location} - {days[new Date(event.date).getDay()] + " " + new Date(event.date).getDate() + " " + months[new Date(event.date).getMonth()]}  {event.id == selected && <span><i className="fas fa-check-circle fa-lg"></i> Geselecteerd</span>}
                         </li>
-                        <Helmet>
-                        <script key={nanoid()} type="application/ld+json">{`
+                        <Helmet key={nanoid()}>
+                        <script  type="application/ld+json">{`
                             {
                                 "@context": "http://schema.org"
                             }
@@ -68,8 +68,8 @@ const GetEvents = ({event}) => {
                 })}
                 </ul>
                 {events.map(event => {
-                    return <Helmet>
-                    <script key={nanoid()} type="application/ld+json">
+                    return <Helmet key={nanoid()}>
+                    <script  type="application/ld+json">
                         {`
                         "@context": "https://schema.org",
                         "@type": "EducationEvent",

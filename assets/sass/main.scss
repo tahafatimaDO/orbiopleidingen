@@ -104,9 +104,14 @@ html{
     }
 }
 
+.navbar-toggler{
+    width: 100%;
+}
+
 .mobile-menu-toggle{
     background-color: $orange;
-    padding: 5px;
+    padding: 8px;
+    border-radius: 4px;
     .navbar-toggler-icon{
         color: $orange;
     }
@@ -273,8 +278,8 @@ header.header{
 .category-header{
     background-color: $orange;
     padding: 20px 10px 10px 10px;
-    clip-path: polygon(0 0, 73% 0, 50% 99%, 0% 100%);
     min-height: 250px;
+
 }
 
 .tiles{
@@ -367,5 +372,27 @@ header.header{
         //     width: 8.88889em;
         //     background-image: linear-gradient(to right, #fdd416, rgba(253, 212, 22, 0));
         // }
+    }
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.822);
+    color: white;
+    .contact-link{
+        display: block;
+        color: orange;
+        font-weight: bold;
+        margin: 4px 0;
+    }
+
+    .footer-location{
+        list-style: none;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+    .category-header{
+        clip-path: polygon(0 0, 73% 0, 50% 99%, 0% 100%);
     }
 }

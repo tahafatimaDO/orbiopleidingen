@@ -1,0 +1,15 @@
+{{ if .IsTranslated }}
+<div class="recommended">
+    <h4>{{ i18n "translations" }}</h4>
+    <ul>
+        {{ range .Translations }}
+        <li>
+            {{- $path := printf "images/flags/%s.svg" .Lang }}
+            {{- $image := resources.Get $path -}}
+            <a href="{{ .RelPermalink }}"><img src="{{ $image.RelPermalink }}" height="20"/> {{ .Title }}</a>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+    
+{{ end }}
