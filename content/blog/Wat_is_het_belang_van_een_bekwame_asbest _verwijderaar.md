@@ -1,7 +1,7 @@
 ---
 title: "Wat is het belang van een bekwame asbest verwijderaar?"
 date: 2021-09-21T18:59:29+02:00
-draft: true
+draft: false
 ---
 Asbest is vanwege de goede eigenschappen in het verleden veel gebruikt, bijvoorbeeld in gebouwen. Asbestvezels kunnen bij inademing diep in de longen doordringen en op termijn ziektes veroorzaken, met soms een fatale afloop. Bij activiteiten in het kader van verwijdering van asbest is er een risico dat er asbestvezels in de ademzone van medewerkers komen en dat er asbestvezelemissie plaatsvindt naar mens en milieu.
 

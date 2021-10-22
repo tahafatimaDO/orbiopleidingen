@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>heftruck on Orbi Opleidingen</title>
+    <link>https://orbiopleidingen.pages.dev/tags/heftruck/</link>
+    <description>Recent content in heftruck on Orbi Opleidingen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 21 Sep 2021 18:59:29 +0200</lastBuildDate><atom:link href="https://orbiopleidingen.pages.dev/tags/heftruck/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Heftruck cursus</title>
+      <link>https://orbiopleidingen.pages.dev/onze-cursussen/logistiek/heftruckcursus/</link>
+      <pubDate>Tue, 21 Sep 2021 18:59:29 +0200</pubDate>
+      
+      <guid>https://orbiopleidingen.pages.dev/onze-cursussen/logistiek/heftruckcursus/</guid>
+      <description>Heftruck cursus in 1 dag</description>
+    </item>
+    
+    <item>
+      <title>Heftruck cursus Roemeens</title>
+      <link>https://orbiopleidingen.pages.dev/onze-cursussen/logistiek/heftruckcursusroemeens/</link>
+      <pubDate>Tue, 21 Sep 2021 18:59:29 +0200</pubDate>
+      
+      <guid>https://orbiopleidingen.pages.dev/onze-cursussen/logistiek/heftruckcursusroemeens/</guid>
+      <description>Heftruck cursus in 1 dag</description>
+    </item>
+    
+  </channel>
+</rss>

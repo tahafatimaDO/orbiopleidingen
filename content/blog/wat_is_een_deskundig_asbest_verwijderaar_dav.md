@@ -1,7 +1,7 @@
 ---
 title: "Wat is een deskundig asbestverwijderaar (DAV)?"
 date: 2021-09-21T18:59:29+02:00
-draft: true
+draft: false
 ---
 
 De Deskundig Asbestverwijderaar voert onder toezicht van een Deskundig Toezichthouder Asbestverwijdering (DTA) asbestverwijderingswerkzaamheden uit, zowel in binnen- als buitensituaties.

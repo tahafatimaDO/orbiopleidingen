@@ -1,7 +1,7 @@
 ---
 title: "Operationeel medewerker (OPM)"
 date: 2021-09-21T18:59:29+02:00
-draft: true
+draft: false
 description: "Tadam"
 price: 150
 Summary: "asdfasdfasdf"

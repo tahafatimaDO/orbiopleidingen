@@ -1,7 +1,7 @@
 ---
 title: "VIL VCU Cursus"
 date: 2021-09-21T18:59:29+02:00
-draft: true
+draft: false
 description: "Tadam"
 price: 189
 Summary: "asdfasdfasdf"

@@ -1,7 +1,7 @@
 ---
 title: "BHV Basis cursus 2 daags"
 date: 2021-09-21T18:59:29+02:00
-draft: true
+draft: false
 description: "Tadam"
 price: 289
 badge:

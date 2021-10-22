@@ -1,7 +1,7 @@
 ---
 title: "Hoe verloopt het volgen van een heftruck cursus?"
 date: 2021-09-21T18:59:29+02:00
-draft: true
+draft: false
 ---
 Menig aantal werknemers worden belast met het besturen van een heftruck. Op het eerste zicht lijkt dat misschien niet zoveel voeten in de aarde te hebben, maar de praktijk leert vaak toch iets anders. Het besturen van een heftruck vereist dan ook wel degelijk een bepaalde kennis. Een groot deel van deze kennis zult u op kunnen doen in de praktijk en naarmate u vaker met een heftruck heeft gewerkt zal uw manier van handelen zeker ook evolueren, maar toch is het altijd interessant om met de nodige kennis aan de slag te gaan. Het volgen van een heftruck cursus kan er voor zorgen dat u echt op optimale wijze bent voorbereid. Bent u daarin ook geïnteresseerd, maar wilt u graag meer te weten komen over een heftruck cursus en in welke verschillende vormen deze precies wordt aangeboden? Dat kan hier in dit blogartikel!
 Wat leert u door het volgen van een heftruck cursus?
