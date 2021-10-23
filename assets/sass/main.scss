@@ -389,6 +389,13 @@ footer{
         list-style: none;
         padding: 0;
     }
+
+    .social-icons{
+        li{
+            display: inline-block;
+            margin: 5px 10px;
+        }
+    }
 }
 
 @media only screen and (min-width: 820px) {

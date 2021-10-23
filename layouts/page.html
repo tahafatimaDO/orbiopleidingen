@@ -59,7 +59,7 @@
             {{ end }}
           </div>
           {{ if .Content }}
-          <header class="tadam">
+          <header>
             <h1 class="blog-post-title">
               <a class="text-dark text-decoration-none" href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
             </h1>
@@ -67,6 +67,7 @@
           </header>
           <section class="blog-post">
             {{ .Content }}
+            <p>ddddd</p>
           </section>
         {{ end }}
         </div>

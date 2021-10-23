@@ -5,7 +5,3 @@ draft: false
 menu: main
 description: "Tadam"
 ---
-*voor en door professionals*
-## Onze VCA cursussen
-
-Orbi opleidingen verzorgt verschillende VCA trainingen op locatie in Rotterdam. VCA staat voor Veiligheid, gezondheid en milieu (VGM) Checklist Aannemers en is 10 jaar geldig. Met het VCA certificaat kun je aantonen dat je verantwoord werkt en rekening houdt met veiligheid, gezondheid en milieu. Ook vermindert het de kans op schade en ongevallen. Veel opdrachtgevers stellen het als voorwaarde dat je in het bezit bent van een VCA certificaat. Zie het certificaat als een investering in jezelf!
