@@ -7,6 +7,11 @@
 
     {{partial "meta.html"}}
 
+    {{ if .IsTranslated }}
+      {{ range .Translations }}
+      <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
+      {{ end }}
+    {{ end }}
     <title>
       {{ block "title" . }}
         {{ .Title}}{{ if ne .Title .Site.Title }} | {{ .Site.Title }}{{ end }}

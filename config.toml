@@ -1,6 +1,6 @@
 baseURL = 'https://orbiopleidingen.pages.dev/'
 DefaultContentLanguage = 'nl'
-title = 'Orbi Opleidingen'
+Title = 'Orbi Opleidingen'
 theme = "bootstrap"
 
 [languages]

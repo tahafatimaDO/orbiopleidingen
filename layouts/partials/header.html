@@ -6,7 +6,13 @@
         <img src="{{ $image.RelPermalink }}" width="200" alt="">
     </a>
     <div class="top-contact">
-        Boek telefonisch: <br><h3><i class="fas fa-phone"></i> 010 737 1700</h3>
+        Boek telefonisch: <br><h3><a href="tel:0107371700"><i class="fas fa-phone"></i> 010 737 1700</h3></a>
+    </div>
+    <div style="display: inline-block;">
+        {{- $image := resources.Get "images/banner/bhv-november.svg" -}}
+        <a href="#">
+            <img src="{{$image.RelPermalink}}" alt="" style="width: 100%;">
+        </a>
     </div>
     <div class="quick-links">
         {{ $url := .RelPermalink | relLangURL }}

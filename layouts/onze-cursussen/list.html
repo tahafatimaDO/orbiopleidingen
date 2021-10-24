@@ -13,7 +13,7 @@
         <h3>Top {{$postCount}} {{.Params.title}}:</h3>
         <ul>
             {{ range where .Pages ".Params.featured" "==" true }}
-                <li><a href="#">{{.Title}}</a></li>
+            <a href="{{.RelPermalink}}"><li>{{.Title}}</li></a>
             {{end}}
         </ul>
     </div>

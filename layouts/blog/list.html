@@ -18,12 +18,13 @@
             {{ $paginator := .Paginate .Pages }}
             {{ range $paginator.Pages }}
             <div class="col-md-6">
-
-                {{ if $truncate }}
-                    {{ .Render "summary" }}
-                {{ else }}
-                    {{ .Render "content" }}
-                {{ end }}
+                <div class="blog-item">
+                    {{ if $truncate }}
+                        {{ .Render "summary" }}
+                    {{ else }}
+                        {{ .Render "content" }}
+                    {{ end }}
+                </div>
             </div>
 
             {{ end }}

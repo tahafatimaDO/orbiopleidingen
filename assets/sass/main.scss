@@ -12,9 +12,17 @@ html{
         background-color: $yellow;
     }
 }
+.container{
+    position: relative;
+}
 
 #breadcrumbs{
     font-size: 0.8rem;
+    position: absolute;
+    height: 10px;
+    z-index: 10;
+    left: 20px;
+    top: 4px;
 }
 
 .course{
@@ -94,12 +102,16 @@ html{
         display: inline-block;
         background-color: #ffc107a6;
         border: 1px solid #ffc107;
-        padding: 8px;
+        padding: 11px;
         vertical-align: middle;
         h3{
             font-weight: bold;
             font-size: 1.3rem;
             margin: 0;
+        }
+        a{
+            color: black;
+            text-decoration: none;
         }
     }
 }
@@ -126,23 +138,25 @@ header.header{
     right: 50px;
     top:20px;
     text-align: center;
-    border: 1px solid rgb(231, 231, 231);
+    // border: 1px solid rgb(231, 231, 231);
     height: 90%;
     width: 22%;
     padding: 10px 20px;
     ul{
         list-style: none;
         padding: 0;
-        li{
-            background-color: rgb(255, 208, 0);
-            padding: 5px 35px;
-            margin: 10px 0;
+        
             a{
                 font-weight: 500;
                 font-size: 20px;
                 text-decoration: none;
                 text-align: center;
                 color: black;
+                li{
+                    background-color: rgb(255, 208, 0);
+                    padding: 5px 35px;
+                    margin: 10px 0;
+                    border-radius: 3px;
             }
         }
     }
@@ -394,7 +408,16 @@ footer{
         li{
             display: inline-block;
             margin: 5px 10px;
+            padding: 8px;
         }
+    }
+}
+
+.blog-item{
+    border: 1px solid gray;
+    margin: 5px 0;
+    .blog-post{
+        padding: 10px;
     }
 }
 
