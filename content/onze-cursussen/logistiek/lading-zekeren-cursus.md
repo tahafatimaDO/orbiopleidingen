@@ -21,14 +21,14 @@ Voor wie?
 Deze cursus is bedoeld voor personen die aan hun Code ’95 verplichtingen moeten voldoen, zoals beroepschauffeurs die met lading zekeren te maken krijgen.
 Inhoud van de cursus
 
-    Wat kunnen de gevolgen zijn van het niet op de juiste wijze laden?
-    Wie is waar verantwoordelijk voor?
-    Krachten die spelen bij de het vervoeren van lading
-    Methoden en principes van lading zekeren
-    Gebruik van laad- en zekeringsmiddelen zoals: spanbanden, kettingen, blokken, wrijvingsmateriaal
-    Gebruik van materiaal dat de zekering van lading ondersteunt zoals: antislipmatten, hoekstukken
-    Lading zekeren zonder beschadigen
-    Gebruik van tabellen om vast te stellen hoe de lading gezekerd moet worden
+- Wat kunnen de gevolgen zijn van het niet op de juiste wijze laden?
+- Wie is waar verantwoordelijk voor?
+- Krachten die spelen bij de het vervoeren van lading
+- Methoden en principes van lading zekeren
+- Gebruik van laad- en zekeringsmiddelen zoals: spanbanden, kettingen, blokken, wrijvingsmateriaal
+- Gebruik van materiaal dat de zekering van lading ondersteunt zoals: antislipmatten, hoekstukken
+- Lading zekeren zonder beschadigen
+- Gebruik van tabellen om vast te stellen hoe de lading gezekerd moet worden
 
 Wat kunt u verwachten?
 
@@ -36,7 +36,7 @@ Aan het eind van de cursus “Lading zekeren” voor de Code ’95 bent u in sta
 
 De cursus bestaat uit een theoretisch en een praktisch gedeelte en wordt afgesloten met een examen.
 
-    1 Cursusdag op locatie in Rotterdam
-    Aansluitend theorie-examen
-    07:00 – 15:00 uur
-    Certificaat + pasje
+- 1 Cursusdag op locatie in Rotterdam
+- Aansluitend theorie-examen
+- 07:00 – 15:00 uur
+- Certificaat + pasje

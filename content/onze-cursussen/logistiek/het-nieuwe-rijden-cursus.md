@@ -20,15 +20,15 @@ Voor wie?
 De cursus “het nieuwe rijden” is bedoeld voor beroepschauffeurs die over willen gaan naar een energie-efficiënter rijgedrag door slimmer te rijden.
 Inhoud van de cursus
 
-    Werkhouding
-    Brandstofgebruik
-    Anticiperen op andere weggebruikers
-    Verschillende rijtechnieken
-    Weersomstandigheden
-    Technische hulpmiddelen
-    Praktijkrit nulmeting
-    Rijopdracht volgens de gestelde normen
-    Veiligheidsvoorschriften bij het laden en lossen van een vrachtwagen
+- Werkhouding
+- Brandstofgebruik
+- Anticiperen op andere weggebruikers
+- Verschillende rijtechnieken
+- Weersomstandigheden
+- Technische hulpmiddelen
+- Praktijkrit nulmeting
+- Rijopdracht volgens de gestelde normen
+- Veiligheidsvoorschriften bij het laden en lossen van een vrachtwagen
 
 Wat kunt u verwachten?
 
@@ -36,7 +36,7 @@ Aan het eind van de cursus “het nieuwe rijden” bent u in staat tot het veran
 
 De cursus bestaat vooral uit het praktisch toepassen van de nieuwe rijstijl.
 
-    1 Cursusdag op locatie in Rotterdam
-    07:00 – 15:00 uur
-    Certificaat + pasje
-    Waarde nascholing (Code ’95): 7 uur praktijk. Het certificaat is 5 jaar geldig.
+- 1 Cursusdag op locatie in Rotterdam
+- 07:00 – 15:00 uur
+- Certificaat + pasje
+- Waarde nascholing (Code ’95): 7 uur praktijk. Het certificaat is 5 jaar geldig.

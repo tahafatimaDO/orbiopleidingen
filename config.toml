@@ -8,10 +8,15 @@ theme = "bootstrap"
     title = 'Orbi Opleidingen'
     weight = 1
     LanguageName = 'Nederlands'
-
   [languages.en]
     title = 'Orbi Education'
     weight = 2
     LanguageName = 'English'
     [languages.en.params]
+      linkedin = 'https://linkedin.com/whoever'
+  [languages.pl]
+    title = 'Orbi po Polsku'
+    weight = 2
+    LanguageName = 'Polish'
+    [languages.pl.params]
       linkedin = 'https://linkedin.com/whoever'

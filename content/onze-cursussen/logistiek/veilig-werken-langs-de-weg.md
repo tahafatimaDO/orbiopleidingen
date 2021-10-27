@@ -21,22 +21,22 @@ Voor wie?
 Deze cursus is bedoeld voor personen die beroepschauffeur willen worden of dat willen blijven.
 Inhoud van de cursus
 
-    Aanleiding van deze cursus
-    Wet- en regelgeving
-    Leren herkennen van de risico’s
-    Risicobeheersing
-    Maatregelen (middelen, PBM’s en houding)
-    Specifieke situaties in het verkeer
-    Bespreken praktijkfoto’s
-    Enkele praktijksituaties nabootsen
-
+- Aanleiding van deze cursus
+- Wet- en regelgeving
+- Leren herkennen van de risico’s
+- Risicobeheersing
+- Maatregelen (middelen, PBM’s en houding)
+- Specifieke situaties in het verkeer
+- Bespreken praktijkfoto’s
+- Enkele praktijksituaties nabootsen
+  
 Wat kunt u verwachten?
 
 U leert tijdens de cursus hoe u de werkzaamheden langs de weg veilig kunt uitvoeren en hoe u risico’s tijdens het werken langs de weg tot een minimum kunt beperken. Na het volgen van de cursus “Veilig werken langs de weg” bent u op de hoogte van de laatste ontwikkelingen.
 
 De cursus bestaat uit een theoretisch en een praktisch gedeelte en wordt afgesloten met een examen.
 
-    1 Cursusdag op locatie in Rotterdam
-    Aansluitend theorie-examen
-    07:00 – 15:00 uur
-    Certificaat + pasje
+- 1 Cursusdag op locatie in Rotterdam
+- Aansluitend theorie-examen
+- 07:00 – 15:00 uur
+- Certificaat + pasje

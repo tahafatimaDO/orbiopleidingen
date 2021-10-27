@@ -22,13 +22,13 @@ Voor wie?
 De cursus “Magazijnmedewerker” is bedoeld voor personen die als magazijnmedewerker aan de slag willen. Enige kennis van computerprogramma’s zoals Word en Excel is wel nodig in deze branche.
 Inhoud van de cursus
 
-    Wet- en regelgeving
-    Risico’s transportvoertuigen
-    Maatregelen om veilig te kunnen werken
-    Rijklaar maken van de transportvoertuigen
-    Bedienen van interne transportmiddelen (heftruck, reachtruck en elektrische palletwagen)
-    Onderhoud
-    Goederenbehandeling
+- Wet- en regelgeving
+- Risico’s transportvoertuigen
+- Maatregelen om veilig te kunnen werken
+- Rijklaar maken van de transportvoertuigen
+- Bedienen van interne transportmiddelen (heftruck, reachtruck en elektrische palletwagen)
+- Onderhoud
+- Goederenbehandeling
 
 Wat kunt u verwachten?
 
@@ -36,8 +36,8 @@ Aan het eind van de tweedaagse cursus “Magazijnmedewerker” weet u hoe u invu
 
 De cursus bestaat uit:
 
-    2 Cursusdagen op locatie in Rotterdam
-    Praktijkexamen voertuigen
-    08:00 – 15:00 uur
-    Certificaat + pasje
-    Het certificaat is 5 jaar geldig
+- 2 Cursusdagen op locatie in Rotterdam
+- Praktijkexamen voertuigen
+- 08:00 – 15:00 uur
+- Certificaat + pasje
+- Het certificaat is 5 jaar geldig

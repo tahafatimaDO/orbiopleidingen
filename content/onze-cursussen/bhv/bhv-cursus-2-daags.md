@@ -15,8 +15,8 @@ Voor wie is de cursus?
 Deze cursus is bedoeld voor alle medewerkers die nog geen BHV hebben.
 Inhoud van de cursus BHV
 
-    Eerste hulp
-    Communicatie
-    Ontruiming
-    Beperken en Bestrijden van een beginnende brand
-    AED-training
+- Eerste hulp
+- Communicatie
+- Ontruiming
+- Beperken en Bestrijden van een beginnende brand
+- AED-training

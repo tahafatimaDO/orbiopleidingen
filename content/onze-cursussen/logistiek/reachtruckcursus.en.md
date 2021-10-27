@@ -21,17 +21,17 @@ Inhoud van de Reachtruck cursus
 
 Theorie:
 
-    Bewustwording van de risico’s van het bedienen van een reachtruck
-    Veiligheid AI 14 en Arbo-wet
-    Vakkennis
-    Dagelijkse controle
-    Verkeersvoorschriften
+- Bewustwording van de risico’s van het bedienen van een reachtruck
+- Veiligheid AI 14 en Arbo-wet
+- Vakkennis
+- Dagelijkse controle
+- Verkeersvoorschriften
 
 Praktijk:
 
-    Dagelijkse controle van de reachtruck
-    Bediening en besturing reachtruck
-    Onderhoud batterij en motor
+- Dagelijkse controle van de reachtruck
+- Bediening en besturing reachtruck
+- Onderhoud batterij en motor
 
 Wat kunt u verwachten?
 
@@ -39,7 +39,7 @@ Na het volgen van de Reachtruck cursus zijn de cursisten in staat om veilig en e
 
 Het besturen van een reachtruck voelt vaak onnatuurlijk, omdat er gereden wordt in een zijwaartse richting. Tijdens de opleiding tot reachtruckchauffeur leert u een reachtruck te besturen en tot in de puntjes te beheersen.
 
-    1 Cursusdag op locatie in Rotterdam
-    Aansluitend theorie-en praktijkexamen
-    08:00 – 15:00 uur
-    Certificaat + pasje
+- 1 Cursusdag op locatie in Rotterdam
+- Aansluitend theorie-en praktijkexamen
+- 08:00 – 15:00 uur
+- Certificaat + pasje
