@@ -1,1 +1,150 @@
-/onze-cursus/heftruck /onze-cursussen/logistiek/heftruckcursus/ 301
+/cursussen/vca /onze-cursussen/vca 301
+/onze-cursussen/vca /onze-cursussen/vca/ 301
+/cursussen/bhv /onze-cursussen/bhv 301
+/cursussen /onze-cursussen 301
+/cursussen/asbest /onze-cursussen/asbest 301
+/onze-cursussen/vca/vil-vca /onze-cursussen/vca/vil-vcu 301 
+/cursussen/verontreinigde-grond /onze-cursussen/verontreinigde-grond/
+/onze-cursussen/verontreinigde-grond /onze-cursussen/verontreinigde-grond/ 301
+
+/cursussen-bhv/bhv-basis /onze-cursussen/bhv/bhv-cursus-2-daags/ 301
+/onze-cursussen/bhv/bhv-basis-2-daagse-cursus /onze-cursussen/bhv/bhv-cursus-2-daags/ 301
+/cursussen-bhv/bhv-herhaal /onze-cursussen/bhv/bhv-cursus-herhaal/ 301
+/onze-cursussen/bhv/bhv-herhaalcursus /onze-cursussen/bhv/bhv-cursus-herhaal/ 301
+/cursussen-bhv/bhv-ploegleider /onze-cursussen/bhv/bhv-ploegleider/ 301
+/onze-cursussen/bhv/bhv-ploegleidercursus /onze-cursussen/bhv/bhv-ploegleider/ 301
+/cursussen-bhv/bhv-ploegleider-herhaal /onze-cursussen/bhv/bhv-ploegleider-herhaal/ 301
+/onze-cursussen/bhv/bhv-ploegleider-herhaalcursus /onze-cursussen/bhv/bhv-ploegleider-herhaal/ 301
+/onze-cursussen/bhv/bhv-1-daagse-cursus-basis /onze-cursussen/bhv/
+/onze-cursussen/bhv /onze-cursussen/bhv/ 301 
+
+/cursussen-transport-logistiek/heftruck-cursus /onze-cursussen/logistiek/heftruckcursus/ 301
+/onze-cursussen/transport-logistiek/heftruck-cursus /onze-cursussen/logistiek/heftruckcursus/ 301
+/heftruck-certificaat-behalen /onze-cursussen/logistiek/ 301
+/cursussen/transport-logistiek /onze-cursussen/logistiek/ 301
+/onze-cursussen/transport-logistiek /onze-cursussen/logistiek/ 301
+
+/cursussen-transport-logistiek/adr-basis /onze-cursussen/logistiek/adr-basis-cursus/ 301
+/onze-cursussen/transport-logistiek/adr-basis /onze-cursussen/logistiek/adr-basis-cursus/ 301
+/cursussen-transport-logistiek/elektrische-palletwagen /onze-cursussen/logistiek/elektronische-palletwagen-cursus/ 301
+/onze-cursussen/transport-logistiek/elektrische-palletwagen /onze-cursussen/logistiek/elektronische-palletwagen-cursus/ 301
+/cursussen-transport-logistiek/het-nieuwe-rijden /onze-cursussen/logistiek/het-nieuwe-rijden-cursus/ 301
+/onze-cursussen/transport-logistiek/het-nieuwe-rijden /onze-cursussen/logistiek/het-nieuwe-rijden-cursus/ 301
+/cursussen-transport-logistiek/lading-zekeren /onze-cursussen/logistiek/lading-zekeren-cursus/ 301
+/onze-cursussen/transport-logistiek/lading-zekeren /onze-cursussen/logistiek/lading-zekeren-cursus/ 301
+/cursussen-transport-logistiek/magazijnmedewerker /onze-cursussen/logistiek/magazijnmedewerker-cursus/ 301
+/onze-cursussen/transport-logistiek/magazijnmedewerker /onze-cursussen/logistiek/magazijnmedewerker-cursus/ 301
+/cursussen-transport-logistiek/reachtruck-cursus /onze-cursussen/logistiek/reachtruckcursus/ 301
+/onze-cursussen/transport-logistiek/reachtruck-cursus /onze-cursussen/logistiek/reachtruckcursus/ 301
+/cursussen-transport-logistiek/veilig-werken-langs-de-weg /onze-cursussen/logistiek/veilig-werken-langs-de-weg/ 301
+/onze-cursussen/transport-logistiek/veilig-werken-langs-de-weg /onze-cursussen/logistiek/veilig-werken-langs-de-weg/ 301
+/onze-cursussen/transport-logistiek/heftruck-engels /onze-cursussen/logistiek/heftruck-cursus-engels/ 301
+/onze-cursussen/transport-logistiek/heftruck-cursus-engels /onze-cursussen/logistiek/heftruck-cursus-engels/ 301 
+/cursussen-asbest/dav-2-cursus-deskundig-asbestverwijderaar-2-herhaal-inclusief-lunch-examen /onze-cursussen/asbest/dav-2-cursus-met-examen/ 301
+/onze-cursussen/asbest/dav-2-cursus-deskundig-asbestverwijderaar-2-herhaal /onze-cursussen/asbest/dav-2-cursus-met-examen/ 301
+/cursussen-asbest/deskundig-asbest-verwijderaar-1 /onze-cursussen/asbest/dav-1-cursus-met-examen/ 301
+/onze-cursussen/asbest/dav-1-cursus-deskundig-asbestverwijderaar /onze-cursussen/asbest/dav-1-cursus-met-examen/ 301
+/cursussen-asbest/deskundig-asbestverwijderaar-2 /onze-cursussen/asbest/dav-2-cursus-met-examen/ 301
+/onze-cursussen/asbest/dav-2-cursus-deskundig-asbestverwijderaar-2-doorstroom /onze-cursussen/asbest/dav-2-cursus-met-examen/ 301
+
+# /cursussen-asbest/deskundig-toezichthouder-asbest-herhaal 
+# /onze-cursussen/asbest/deskundig-toezichthouder-asbest-herhaal 301
+# /cursussen-asbest/dta-cursus 
+# /onze-cursussen/asbest/dta-cursus-deskundig-toezichthouder-asbest 301
+# /cursussen-asbest/face-fit-test 
+# /onze-cursussen/asbest/face-fit-test 301
+# /onze-cursussen/asbest/dav-1-cursus-deskundig-asbestverwijderaar /onze-cursussen/asbest/dav-1-cursus-met-examen/ 301
+# /onze-cursussen/asbest/dav-1-cursus /onze-cursussen/asbest/dav-1-cursus-met-examen/ 301 
+# /onze-cursussen/asbest/dav-2-cursus-deskundig-asbestverwijderaar-2-doorstroom /onze-cursussen/asbest/dav-2-cursus-met-examen/ 301
+# /onze-cursussen/asbest/dav-2-cursus /onze-cursussen/asbest/dav-2-cursus-met-examen/ 301
+# /onze-cursussen/asbest/dta-cursus-deskundig-toezichthouder-asbest 
+# /onze-cursussen/asbest/dta-cursus 301 
+# /onze-cursussen/asbest/dav-2-cursus-deskundig-asbestverwijderaar-2-herhaal 
+# /onze-cursussen/asbest/dav-2-cursus-herhaal 301 
+# /onze-cursussen/asbest/deskundig-toezichthouder-asbest-herhaal 
+# /onze-cursussen/asbest/dta-herhaal 301 
+# /onze-cursussen/asbest/dta-herhaal 
+# /onze-cursussen/asbest/dta-cursus-herhaal 301 
+# /onze-cursussen/asbest/dav-2-cursus 
+# /onze-cursussen/asbest/dav-2-cursus-doorstroom 301 
+# /onze-cursussen/asbest/dav-2-cursus-herhaal 
+# /onze-cursussen/asbest/dav-2-cursus-herhaling 301 
+# /onze-cursussen/asbest/dta-cursus-herhaal 
+# /onze-cursussen/asbest/dta-cursus-herhaling 301 
+
+
+
+# /cursussen/steigerbouw 
+# /onze-cursussen 301
+# /cursussen-steigerbouw/1e-monteur-steigerbouw 
+# /onze-cursussen 301
+# /cursussen-steigerbouw/hulpmonteur-steigerbouw 
+# /onze-cursussen 301
+# /cursussen-steigerbouw/monteur-steigerbouw 
+# /onze-cursussen 301
+# /cursussen-steigerbouw/steigerinspecteur 
+# /onze-cursussen 301
+# /cursussen-steigerbouw/voorman-steigerbouw 
+# /onze-cursussen 301
+
+
+
+
+
+
+# /onze-cursussen/losse-examens /onze-cursussen/examens 301 
+
+/cursussen/page/2 /onze-cursussen/ 301
+/cursussen/page/3 /onze-cursussen/ 301
+
+/onze-cursussen/vca/vca-basis /onze-cursussen/vca/vca-basis-cursus/ 301
+/onze-cursussen/vca/vca-basis-cursus /onze-cursussen/vca/vca-basis-cursus/ 301 
+/onze-cursussen/vca/vca-vol /onze-cursussen/vca/vca-vol-cursus/ 301
+/onze-cursussen/vca/vca-vol-cursus /onze-cursussen/vca/vca-vol-cursus/ 301 
+
+/cursussen/vca /onze-cursussen/vca/ 301
+/onze-cursussen/vca /onze-cursussen/vca/ 301
+/cursussen-vca/b-vca-basisveiligheid /onze-cursussen/vca/vca-basis-cursus/ 301
+/onze-cursussen/vca/vca-basis /onze-cursussen/vca/vca-basis-cursus/ 301
+
+/cursussen-vca/b-vca-basisveiligheid /onze-cursussen/vca/vca-basis-cursus/ 301
+/onze-cursussen/vca/vca-basis-cursus/ /onze-cursussen/vca/vca-basis-cursus/ 301
+/onze-cursussen/vca/vca-basis /onze-cursussen/vca/vca-basis-cursus/ 301
+/cursussen-vca/b-vca-turks-basisveiligheid /onze-cursussen/vca/vca-cursus-turks-cursus/ 301
+/onze-cursussen/vca/vca-turkce-basisveiligheid-turks /onze-cursussen/vca/vca-cursus-turks-cursus/ 301
+
+
+/cursussen-vca/vca-arabisch /onze-cursussen/vca/vca-basis-arabisch-cursus/ 301
+/onze-cursussen/vca/vca-arabisch /onze-cursussen/vca/vca-basis-arabisch-cursus/ 301
+/cursussen-vca/vca-grieks /onze-cursussen/vca/vca-basis-grieks-cursus/ 301
+/onze-cursussen/vca/vca-grieks /onze-cursussen/vca/vca-basis-grieks-cursus/ 301
+/cursussen-vca/vca-pools-cursus-examen /onze-cursussen/vca/vca-basis-pools-cursus/ 301
+/onze-cursussen/vca/vca-cursus-pools /onze-cursussen/vca/vca-basis-pools-cursus/ 301
+/cursussen-vca/vca-vol-leidinggevenden /onze-cursussen/vca/vca-vol-cursus/ 301
+/onze-cursussen/vca/vca-vol /onze-cursussen/vca/vca-vol-cursus/ 301
+/cursussen-vca/vil-vcu-uitzendbureaus /onze-cursussen/vca/vil-vcu-cursus/ 301
+/onze-cursussen/vca/vil-vcu /onze-cursussen/vca/vil-vcu-cursus/ 301
+
+/cursussen-verontreinigde-grond/dlp-cursus /onze-cursussen/vertonreinigde-grond/dlp-cursus/ 301
+/onze-cursussen/verontreinigde-grond/dlp-cursus /onze-cursussen/vertonreinigde-grond/dlp-cursus/ 301
+/cursussen-verontreinigde-grond/gasmeten/ /onze-cursussen/vertonreinigde-grond/gasmeten-cursus/ 301
+/onze-cursussen/verontreinigde-grond/gasmeten /onze-cursussen/vertonreinigde-grond/gasmeten-cursus/ 301
+/cursussen-verontreinigde-grond/operationeel-medewerker-opm /onze-cursussen/vertonreinigde-grond/operationeel-medewerker/ 301 
+/onze-cursussen/verontreinigde-grond/operationeel-medewerker-opm /onze-cursussen/vertonreinigde-grond/operationeel-medewerker/ 301
+/vca-engels /onze-cursussen/vca/vca-basis-engels-cursus/ 301
+/onze-cursussen/vca/vca-cursus-engels /onze-cursussen/vca/vca-basis-engels-cursus/ 301 
+# /vca-in-tigrinya 
+
+# /onze-cursussen/viag-bei/thp-vop-viag /onze-cursussen/viag-bei/viag-thp-g-vop-g-assistent 301 
+
+
+# /blog-1 /blog-12 301 
+# /blog-1/asbest-cursussen-wat-maakt-ze-zo-belangrijk /blog-12/asbest-cursussen-wat-maakt-ze-zo-belangrijk 301 
+# /blog-1/wat-is-een-deskundig-asbestverwijderaar-dav /blog-12/wat-is-een-deskundig-asbestverwijderaar-dav 301 
+# /blog-1/wat-is-het-belanglang-van-een-bekwame-asbest-verwijderaar /blog-12/wat-is-het-belanglang-van-een-bekwame-asbest-verwijderaar 301 
+# /blog-1/hoe-verloopt-het-volgen-van-een-heftruck-cursus /blog-12/hoe-verloopt-het-volgen-van-een-heftruck-cursus 301 
+# /blog-12 /blog 301 
+# /blog-12/asbest-cursussen-wat-maakt-ze-zo-belangrijk /blog/asbest-cursussen-wat-maakt-ze-zo-belangrijk 301 
+# /blog-12/wat-is-een-deskundig-asbestverwijderaar-dav /blog/wat-is-een-deskundig-asbestverwijderaar-dav 301 
+# /blog-12/wat-is-het-belanglang-van-een-bekwame-asbest-verwijderaar /blog/wat-is-het-belanglang-van-een-bekwame-asbest-verwijderaar 301 
+# /blog-12/hoe-verloopt-het-volgen-van-een-heftruck-cursus /blog/hoe-verloopt-het-volgen-van-een-heftruck-cursus 301 
