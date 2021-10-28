@@ -137,8 +137,8 @@
 /onze-cursussen/vca/vca-cursus-engels /onze-cursussen/vca/vca-basis-engels-cursus/ 301 
 # /vca-in-tigrinya 
 
-/onze-cursussen/viag-bei/thp-vop-viag / 301
-/onze-cursussen/viag-bei/viag-thp-g-vop-g-assistent / 301 
+# /onze-cursussen/viag-bei/thp-vop-viag / 301
+# /onze-cursussen/viag-bei/viag-thp-g-vop-g-assistent / 301 
 
 
 /onze-cursussen/verontreinigde-grond/dlp-cursus /onze-cursussen/vertonreinigde-grond/dlp-cursus/ 301
@@ -163,10 +163,39 @@
 /cursussen-transport-logistiek/lading-zekeren/ /onze-cursussen/logistiek/lading-zekeren-cursus/ 301
 /onze-cursussen/transport-logistiek/hoogwerker /onze-cursussen/logistiek/hoogwerker-cursus/ 301
 /onze-cursussen/transport-logistiek/reachtruck-cursus /onze-cursussen/logistiek/reachtruckcursus/ 301
+/juridisch/privacyverklaring /juridisch/privacy-verklaring 301
+/juridisch/sitemap / 301
+/juridisch /juridisch/algemene-voorwaarden/ 301
+/onze-cursussen/bhv/bhv-herhaalcursus /onze-cursussen/bhv/bhv-cursus-herhaal/ 301
+/onze-cursussen/bhv/bhv-ploegleider-herhaalcursus /onze-cursussen/bhv/bhv-ploegleider-herhaal/ 301
+/onze-cursussen/bhv/bhv-ploegleidercursus /onze-cursussen/bhv/bhv-ploegleider/ 301
+/onze-cursussen/bhv/bhv-basis-2-daagse-cursus /onze-cursussen/bhv/bhv-cursus-2-daags/ 301
+/onze-cursussen/vca/vca-bulgaars /onze-cursussen/vca/vca-basis-cursus-bulgaars/ 301
+/onze-cursussen/vca/vca-portugees /onze-cursussen/vca/vca-basis-cursus-portugees/ 301
+/onze-cursussen/sog-cursussen/sog-buitenwacht-mangatwacht /onze-cursussen/sog/sog-mangatwacht-buitenwacht-cursus/ 301
+/onze-cursussen/sog-cursussen/sog-werken-aan-flensverbindingen /onze-cursussen/sog/sog-werken-aan-flensverbindingen-cursus/ 301
+/cursussen-vca/vca-grieks/ /onze-cursussen/vca/vca-basis-grieks-cursus/ 301
+/onze-cursussen/sog-cursussen /onze-cursussen/sog/ 301
+/onze-cursussen/sog-cursussen/sog-adembescherming /onze-cursussen/sog/sog-adembescherming-cursus/ 301
+/onze-cursussen/vca/vca-roemeens /onze-cursussen/vca/vca-basis-cursus-roemeens/ 301
+/onze-cursussen/vca/vca-engels-basis /onze-cursussen/vca/vca-basis-engels-cursus/ 301
+/onze-cursussen/verontreinigde-grond /onze-cursussen/vertonreinigde-grond/ 301
+/onze-cursussen/vca/vca-vol-cursus /onze-cursussen/vca/vca-vol-cursus/ 301
+/onze-cursussen/asbest/dta-cursus /onze-cursussen/asbest/dta-cursus-met-examen/ 301
+/onze-cursussen/vca/vca-russisch 
+/onze-cursussen/vca/vca-tigrinya
+/onze-cursussen/vca/vca-cursus-pools
+/onze-cursussen/verontreinigde-grond/dlp-r
+/onze-cursussen/asbest/dta-cursus-herhaling
+
+
+
+
 
 
 /onze-cursussen/transport-logistiek/heftruck-herhaal 
 /onze-cursussen/transport-logistiek/reachtruck-turks
+
 
 
 /vca-po-polsku /pl 301
@@ -179,80 +208,46 @@
 /certificaat-halen-in-de-transport
 /vca-cursus-den-haag
 /vca-in-1-dag
-/onze-cursussen/vca/vca-tigrinya
-/onze-cursussen/asbest/dta-cursus
-/onze-cursussen/asbest/dta-cursus-herhaling
-/onze-cursussen/verontreinigde-grond/dlp-r
 /onze-cursussen/overige-cursussen/1e-monteur-steigerbouw
 /klantervaringen
-/onze-cursussen/verontreinigde-grond
-/onze-cursussen/vca/vca-russisch
 /onze-cursussen/asbest/dav-2-cursus-herhaling
-/juridisch/algemene-voorwaarden
-/onze-cursussen/vca/vca-vol-cursus
 /vca-cursus-engels
 /onze-cursussen/verontreinigde-grond/gasmeten
 /onze-cursussen/asbest/dav-2-cursus-doorstroom
 /vca-cursus-barendrecht
-/onze-cursussen/bhv/bhv-basis-2-daagse-cursus
-/onze-cursussen/vca/vca-cursus-pools
 /onze-cursussen/verontreinigde-grond/operationeel-medewerker-opm
-/onze-cursussen/vca/vca-engels-basis
 /onze-cursussen/sog-cursussen/sog-gasmeten
 /onze-cursussen
 /routebeschrijving
-/onze-cursussen/vca/vca-portugees
-/onze-cursussen/vca/vca-bulgaars
-/onze-cursussen/bhv
 /onze-cursussen/bhv/bhv-cursus-engels
-/onze-cursussen/vca/vca-basis-cursus
+
 /vca-certificaat
 /vca-training
-/onze-cursussen/sog-cursussen/sog-buitenwacht-mangatwacht
-/onze-cursussen/sog-cursussen/sog-werken-aan-flensverbindingen
+
 /vca-cursus-beverwijk
-/onze-cursussen/bhv/bhv-ploegleidercursus
 /onze-cursussen/sog-cursussen/sog-heftruck-cursus
 /over-ons
 /vca-cursus-rotterdam
 /onze-cursussen/vca/vca-spaans
 /onze-cursussen/vca/vca-nederlands-vol-examen
 /onze-cursussen/bhv/ehbo-bij-kinderen
-/onze-cursussen/vca/vil-vcu
 /vraag-offerte-aan
 /in-1-keer-vca
 /theorie-cursussen/motor-theorie-cursus
-/onze-cursussen/sog-cursussen/sog-adembescherming
-/onze-cursussen/vca/vca-roemeens
-/onze-cursussen/sog-cursussen
 /theorie-cursussen
-/juridisch/privacyverklaring
 /onze-cursussen/overige-cursussen/monteur-steigerbouw
-/cursussen-vca/vca-grieks/
 /onze-cursussen/overige-cursussen
 /sitemap.default.xml
 /onze-cursussen/vca/vca-nederlands-basis-voorlees
-/onze-cursussen/bhv/bhv-ploegleider-herhaalcursus
-/juridisch/sitemap
+
+
 /onze-cursussen/vca/vca-vol-cursus-engels
 /theorie-cursussen/auto-theorie-cursus
-/onze-cursussen/bhv/bhv-herhaalcursus
 /vca-in-rotterdam
 /waarom-een-gecertificeerde-asbest-verwijderaar-inhuren
-/juridisch/cookieverklaring
 /onze-cursussen/vca/vca-groen
-/juridisch/disclaimer
 /onze-cursussen/vca/vca-nederlands-basis-examen
 /onze-cursussen/vca/vca-nederlands-basis-examen-met-e-learning
-/juridisch
 /test
 /onze-cursussen/vca/cursus-op-aanvraag
 /onze-cursussen/vca/vca-nederlands-vol-e-learning
-
-/blog/wat-is-het-belanglang-van-een-bekwame-asbest-verwijderaar
-/blog/een-heftruck-en-vca-cursus-volgen-bij-orbi-opleidingen
-/blog/een-snelle-opleiding-tot-asbestsaneerder-volgen
-/blog/wat-is-een-deskundig-asbestverwijderaar-dav
-/blog/nieuwe-locatie-in-beverwijk
-/blog/een-dta-of-dav-cursus-volgen-in-beverwijk
-/blog/hoe-verloopt-het-volgen-van-een-heftruck-cursus

@@ -7,7 +7,6 @@ price: 189
 courseId: 23
 featured: true
 Summary: "Heftruck cursus in 1 dag"
-TopImage: "images/vca.jpg"
 pos:
 -   Gratis gezonde lunch
 -   Cursus + examen in 1 dag

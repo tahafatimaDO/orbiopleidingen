@@ -5,7 +5,6 @@ draft: false
 description: "Tadam"
 price: 189
 Summary: "Heftruck cursus in 1 dag"
-TopImage: "images/vca.jpg"
 pos:
 -   Gratis gezonde lunch
 -   Cursus + examen in 1 dag

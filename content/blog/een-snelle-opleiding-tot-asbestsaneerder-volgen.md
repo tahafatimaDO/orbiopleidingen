@@ -1,0 +1,20 @@
+---
+title: "Een snelle opleiding tot asbestsaneerder volgen"
+date: 2021-09-21T18:59:29+02:00
+draft: false
+course_category: asbest
+layout: blog
+---
+
+Door de jaren heen is er in verschillende sectoren op bijzonder uitgebreide basis gebruik gemaakt van asbest. Dat is logisch, want er werden heel wat interessante voordelen toegeschreven aan het gebruik van dit materiaal. Helaas weten we ondertussen ook dat er aan het gebruik van asbest verschillende mogelijke nadelen zijn verbonden voor onze gezondheid. Het is mede omwille van deze reden dat het beroep van asbestsaneerder door de jaren heen zo belangrijk is geworden. Zou u ook graag een efficiënte opleiding tot asbestsaneerder willen volgen en bent u daarvoor op zoek naar meer informatie? Dan kunnen we u alleen maar aanraden om u even te verdiepen in de informatie welke in dit blogartikel staat aangegeven.
+Het volgen van een asbest opleiding, waarom is dat nodig?
+
+Asbest is eigenlijk de verzamelnaam van een aantal mineralen welke door de natuur worden gevormd en beschikken over een vezelstructuur. In het verleden werd er op zeer uitgebreide basis gebruik gemaakt van asbest omwille van de vele interessante voordelen waarover ze beschikt. Niet alleen kan er dan ook worden gesteld dat asbest sterk en slijtvast is, daarnaast beschikt ze over vochtwerende eigenschappen, is ze bestand tegen zuren en micro-organismen en is ze opgewassen tegen hoge temperaturen. Bovendien geldt voor asbest ook nog eens dat ze niet elektrisch geleidend is. Tel daar ook nog eens de voordelige aankoopprijs bij op en het hoeft niet te verbazen dat asbest gebruiken in het verleden lange tijd zeer populair was.
+
+Ondanks bovenstaande weten we inmiddels dat er aan blootstelling aan asbest ook bepaalde potentiële nadelen voor de gezondheid zijn verbonden. Mensen die op regelmatige basis vezels van asbest inademen kunnen dan ook geconfronteerd worden met verschillende, ernstige aandoeningen. Het kan hierbij niet alleen gaan om longkanker, maar ook om bijvoorbeeld longvlies- en buikvlieskanker. Mede omwille van deze reden geldt er inmiddels een verbod op het gebruik van asbest. Het volgen van een asbest cursus zorgt er voor dat u zich als professionele asbestsaneerder kunt profileren waardoor u mee kunt bijdragen aan een asbestvrije toekomst voor niet alleen de huidige, maar ook de volgende generaties.
+In twee dagen opgeleid worden tot asbestsaneerder
+
+Het volgen van één van de verschillende asbest cursussen uit ons aanbod zorgt er voor dat u zich op korte termijn kunt gaan profileren als professionele asbestsaneerder. In amper twee dagen tijd kunt u zich door het volgen van één van onze opleidingen een asbestsaneerder noemen. Er worden diverse opleidingen aangeboden welke wekelijks starten. Door het volgen van één van deze cursussen is het niet alleen mogelijk om uw theoretische kennis bij te schaven, daarnaast zult u meteen ook over de nodige praktische vaardigheden komen te beschikken. Het mag dan ook duidelijk zijn, indien u ook geïnteresseerd bent om u op korte termijn te bekwamen als asbestsaneerder is het volgen van één van onze verschillende opleidingen absoluut de moeite meer dan waard!
+Asbestverwijdering door deskundige bedrijven
+
+Reeds in het jaar 1993 werd er door de overheid besloten om een algemeen verbod op het gebruik van asbest in te stellen. Dit verbod heeft niet alleen betrekking tot het bewerken en verwerken, maar ook tot het op voorraad hebben van asbest. Dit gezegd hebbende is er ook vandaag de dag nog altijd sprake van een bepaalde erfenis waar we mee zitten opgescheept. Deze erfenis vergt een behoorlijke inspanning, want we moeten ze opruimen. Dit dient echter te gebeuren door professionele bedrijven welke over gecertificeerde medewerkers beschikken. Deze moeten er voor zorgen dat de vezelemissie tijdens het weghalen van de materialen naar mens en milieu zo beperkt mogelijk kan worden gehouden. Door het volgen van één van onze opleidingen wordt ook u één van deze gecertificeerde medewerkers!
